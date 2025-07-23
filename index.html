@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Catasta Sicurezza</title>
+    <link rel="icon" type="image/webp" href="img/landing/logo.webp">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <div class="logo-icon">
+                    <img id="logo" src="img/landing/logo.webp" alt="Logo" width="35" height="auto" /></div>
+                    Catasta Sicurezza
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Chi Siamo</a></li>
+                <li><a href="#services">Servizi</a></li>
+                <li><a href="#courses">Corsi</a></li>
+                <li><a href="#contact">Contatti</a></li>
+            </ul>
+            <div class="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Sicurezza sul Lavoro</h1>
+            <p>Consulenza specializzata e formazione professionale per la sicurezza nei luoghi di lavoro</p>
+            <a href="#contact" class="cta-button">Richiedi Consulenza</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Chi Siamo</h2>
+                    <p>Catasta Sicurezza è una società di consulenza e formazione sulla sicurezza sul lavoro. Con anni di esperienza nel settore, offriamo soluzioni complete per garantire la sicurezza e la conformità normativa nelle aziende di ogni dimensione.</p>
+                    <p>Il nostro team di esperti qualificati fornisce consulenza personalizzata e corsi di formazione aggiornati alle ultime normative europee e italiane.</p>
+                    <p>La nostra missione è creare ambienti di lavoro più sicuri attraverso la prevenzione, la formazione e l'implementazione delle migliori pratiche di sicurezza.</p>
+                </div>
+                <div class="about-image">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2>I Nostri Servizi</h2>
+            <div class="services-grid">
+                <div class="service-card" onclick="scrollToContact()">
+                    <div class="service-icon"><img id="consulenza" src="img/landing/consulenza.webp" width="200" height="auto" loading="lazy" decoding="async"/></div>
+                    <h3>Consulenza Specializzata</h3>
+                    <div class="service-subtitle">D.Lgs. 81/2008</div>
+                    <p>Team di esperti qualificati con esperienza pluriennale nel settore della sicurezza sul lavoro, sempre aggiornati sulle normative vigenti per garantire la piena conformità aziendale.</p>
+                </div>
+                
+                <div class="service-card" onclick="scrollToContact()">
+                    <div class="service-icon"><img id="documenti" src="img/landing/documenti.webp" width="210" height="auto" loading="lazy" decoding="async"/></div>
+                    <h3>Redazione Documentale</h3>
+                    <div class="service-subtitle">D.Lgs. 81/2008</div>
+                    <ul class="service-list">
+                        <li>Documento Valutazione Rischi (DVR)</li>
+                        <li>Documento Unico Valutazione Rischi Interferenti (DUVRI)</li>
+                        <li>Piano Operativo di Sicurezza (POS)</li>
+                        <li>Piano di Sicurezza e Coordinamento (PSC)</li>
+                        <li>Piano di Evacuazione e Emergenza</li>
+                    </ul>
+                </div>
+
+                <div class="service-card" onclick="scrollToContact()">
+                    <div class="service-icon"><img id="documenti" src="img/landing/attenzione.webp" width="150" height="auto" loading="lazy" decoding="async"/></div>
+                    <h3>Valutazione Rischi Specifici</h3>
+                    <div class="service-subtitle">D.Lgs. 81/2008 - Titolo VIII</div>
+                    <ul class="service-list">
+                        <li>Vibrazioni</li>
+                        <li>Rumore</li>
+                        <li>Rischio Chimico</li>
+                        <li>Movimentazione Manuale Carichi</li>
+                        <li>Stress Lavoro Correlato</li>
+                        <li>Videoterminale</li>
+                        <li>Rischio Biologico e Cancerogeno</li>
+                        <li>Radiazioni Ottiche Artificiali</li>
+                    </ul>
+                </div>
+
+                <div class="service-card" onclick="scrollToContact()">
+                    <div class="service-icon"><img id="eventi" src="img/landing/eventi.webp" width="250" height="auto" loading="lazy" decoding="async"/></div>
+                    <h3>Sicurezza Eventi</h3>
+                    <div class="service-subtitle">Circolare Gabrielli 7/07/2017</div>
+                    <ul class="service-list">
+                        <li>Redazione Piano Safety</li>
+                        <li>Piano Emergency</li>
+                        <li>Nomina Responsabile Sicurezza Evento</li>
+                        <li>Planimetria di Emergenza</li>
+                        <li>HACCP</li>
+                        <li>Security</li>
+                        <li>Unità Mobile di Soccorso</li>
+                        <li>Addetti Antincendio</li>
+                    </ul>
+                </div>
+
+                <div class="service-card" onclick="scrollToContact()">
+                    <div class="service-icon"><img id="incarichi" src="img/landing/incarichi.webp" width="250" height="auto" loading="lazy" decoding="async"/></div>
+                    <h3>Incarichi Professionali</h3>
+                    <div class="service-subtitle">D.Lgs. 81/2008</div>
+                    <ul class="service-list">
+                        <li>Incarico RSPP</li>
+                        <li>Incarico CSP-CSE di Cantiere</li>
+                        <li>Incarico Responsabile Lavori</li>
+                        <li>Consulenza Annuale</li>
+                        <li>Lead Auditor Sistemi di Gestione Aziendale</li>
+                        <li>Ispettore Impianti Termici (ENEA)</li>
+                        <li>Formatore Sicurezza sul Lavoro</li>
+                        <li>Incarico RSPP Esterno</li>
+                    </ul>
+                </div>
+
+                <div class="service-card" onclick="scrollToContact()">
+                    <div class="service-icon"><img id="cctv" src="img/landing/cctv.webp" width="200" height="auto" loading="lazy" decoding="async"/></div>
+                    <h3>Pratica Autorizzazione Videosorveglianza</h3>
+                    <div class="service-subtitle">Legge 300/1970</div>
+                    <ul class="service-list">
+                        <li>Istanza Autorizzazione</li>
+                        <li>Planimetria di Videosorveglianza</li>
+                        <li>Relazione Tecnica Descrittiva</li>
+                    </ul>
+                </div>
+
+                <div class="service-card" onclick="scrollToContact()">
+                    <div class="service-icon"><img id="iso" src="img/landing/iso.webp" width="200" height="auto" loading="lazy" decoding="async"/></div>
+                    <h3>Certificazioni ISO</h3>
+                    <div class="service-subtitle">ISO 19011:2018</div>
+                    <ul class="service-list">
+                        <li>ISO 9001 Quilità</li>
+                        <li>ISO 14001 Ambiente</li>
+                        <li>ISO 45001 Salute e Sicurezza</li>
+                        <li>ISO 50001 Energia</li>
+                        <li>PdR UNI 125:2022</li>
+                        <li>Parità di genere</li>
+                        <li>SA 8000</li>
+                        <li>Responsabilità sociale d'impresa</li>
+                    </ul>
+                </div>
+
+                <div class="service-card" onclick="scrollToContact()">
+                    <div class="service-icon"><img id="aid" src="img/landing/aid.webp" width="250" height="auto" loading="lazy" decoding="async"/></div>
+                    <h3>Altri Servizi</h3>
+                    <div class="service-subtitle"></div>
+                    <ul class="service-list">
+                        <li>Verifica Impianti di Messa a Terra</li>
+                        <li>DpR 462/01</li>
+                        <li>Certificati prevenzione Incendi DM 03/09/2021</li>
+                        <li>Marcature CE</li>
+                        <li>Servizio Estintori e Registro Controlli Antincendio</li>
+                        <li>Servizio Cassetta Primo Soccorso</li>
+                        <li>Servizio Cartellonistica di Sicurezza</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="courses" class="courses">
+        <div class="container">
+            <h2>Corsi di Formazione</h2>
+            <div class="courses-intro">
+                <p>Offriamo una vasta gamma di corsi di formazione per la sicurezza sul lavoro, conformi alle normative vigenti.</p>
+            </div>
+            
+            <div class="courses-compact-grid">
+                <div class="course-compact-card" onclick="openCoursesModalAndExpand('ponteggi')">
+                    <div class="course-image-container">
+                        <img src="img/corsi/ponteggi.webp" alt="Ponteggi" class="course-image" loading="lazy" decoding="async">
+                        <div class="course-image-overlay"></div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-compact-title">Ponteggi</div>
+                    </div>
+                </div>
+                
+                <div class="course-compact-card" onclick="openCoursesModalAndExpand('antincendio')">
+                    <div class="course-image-container">
+                        <img src="img/corsi/antincendio.webp" alt="Antincendio" class="course-image" loading="lazy" decoding="async">
+                        <div class="course-image-overlay"></div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-compact-title">Antincendio</div>
+                    </div>
+                </div>
+                
+                <div class="course-compact-card" onclick="openCoursesModalAndExpand('carrelli')">
+                    <div class="course-image-container">
+                        <img src="img/corsi/carrelli.webp" alt="Carrelli Elevatori" class="course-image" loading="lazy" decoding="async">
+                        <div class="course-image-overlay"></div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-compact-title">Carrelli Elevatori</div>
+                    </div>
+                </div>
+                
+                <div class="course-compact-card" onclick="openCoursesModalAndExpand('dpi')">
+                    <div class="course-image-container">
+                        <img src="img/corsi/dpi3.webp" alt="DPI 3° Categoria" class="course-image" loading="lazy" decoding="async">
+                        <div class="course-image-overlay"></div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-compact-title">DPI 3° Categoria</div>
+                    </div>
+                </div>
+                
+                <div class="course-compact-card" onclick="openCoursesModalAndExpand('dirigenti')">
+                    <div class="course-image-container">
+                        <img src="img/corsi/dirigente.webp" alt="Formazione Dirigenti" class="course-image" loading="lazy" decoding="async">
+                        <div class="course-image-overlay"></div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-compact-title">Formazione Dirigenti</div>
+                    </div>
+                </div>
+                
+                <div class="course-compact-card" onclick="openCoursesModalAndExpand('lavoratori')">
+                    <div class="course-image-container">
+                        <img src="img/corsi/worker.webp" alt="Formazione Lavoratori" class="course-image" loading="lazy" decoding="async">
+                        <div class="course-image-overlay"></div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-compact-title">Formazione Lavoratori</div>
+                    </div>
+                </div>
+
+                <div class="course-compact-card" onclick="openCoursesModalAndExpand('quota')">
+                    <div class="course-image-container">
+                        <img src="img/corsi/lavoriquota.webp" alt="Lavori in Quota" class="course-image" loading="lazy" decoding="async">
+                        <div class="course-image-overlay"></div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-compact-title">Lavori in Quota</div>
+                    </div>
+                </div>
+
+                <div class="course-compact-card" onclick="openCoursesModalAndExpand('haccp')">
+                    <div class="course-image-container">
+                        <img src="img/corsi/haccp.webp" alt="Corso HACCP" class="course-image" loading="lazy" decoding="async">
+                        <div class="course-image-overlay"></div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-compact-title">Corso HACCP</div>
+                    </div>
+                </div>
+
+                <div class="course-compact-card" onclick="openCoursesModalAndExpand('macchine')">
+                    <div class="course-image-container">
+                        <img src="img/corsi/ruspa.webp" alt="Macchine Movimento Terra" class="course-image" loading="lazy" decoding="async">
+                        <div class="course-image-overlay"></div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-compact-title">Macchine Movimento Terra</div>
+                    </div>
+                </div>
+
+                <div class="course-compact-card" onclick="openCoursesModalAndExpand('piattaforme')">
+                    <div class="course-image-container">
+                        <img src="img/corsi/scaffold.webp" alt="Piattaforme di Lavoro Elevabili" class="course-image" loading="lazy" decoding="async">
+                        <div class="course-image-overlay"></div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-compact-title">Piattaforme di Lavoro Elevabili</div>
+                    </div>
+                </div>
+
+                <div class="course-compact-card" onclick="openCoursesModalAndExpand('preposto')">
+                    <div class="course-image-container">
+                        <img src="img/corsi/preposto.webp" alt="Preposto" class="course-image" loading="lazy" decoding="async">
+                        <div class="course-image-overlay"></div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-compact-title">Preposto</div>
+                    </div>
+                </div>
+
+                <div class="course-compact-card" onclick="openCoursesModalAndExpand('soccorso')">
+                    <div class="course-image-container">
+                        <img src="img/corsi/aid.webp" alt="Primo Soccorso" class="course-image" loading="lazy" decoding="async">
+                        <div class="course-image-overlay"></div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-compact-title">Primo Soccorso</div>
+                    </div>
+                </div>
+
+                <div class="course-compact-card" onclick="openCoursesModalAndExpand('rls')">
+                    <div class="course-image-container">
+                        <img src="img/corsi/rls.webp" alt="RLS" class="course-image" loading="lazy" decoding="async">
+                        <div class="course-image-overlay"></div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-compact-title">RLS</div>
+                    </div>
+                </div>
+
+                <div class="course-compact-card" onclick="openCoursesModalAndExpand('rspp')">
+                    <div class="course-image-container">
+                        <img src="img/corsi/rspp.webp" alt="RSPP" class="course-image" loading="lazy" decoding="async">
+                        <div class="course-image-overlay"></div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-compact-title">RSPP</div>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="view-all-courses-btn" onclick="openCoursesModal()">
+                📚 Visualizza Tutti i Corsi
+            </button>
+        </div>
+    </section>
+
+<!-- Courses Modal Overlay -->
+<div class="courses-overlay" id="coursesOverlay">
+    <div class="courses-modal">
+        <div class="courses-modal-header">
+            <div class="courses-modal-title">📚 Tutti i Corsi di Formazione</div>
+            <button class="close-modal" onclick="closeCoursesModal()">&times;</button>
+        </div>
+        <div class="courses-modal-content">
+            
+            <div class="course-item" id="ponteggi" onclick="toggleCourse(this)">
+                <div class="course-header-clickable">
+                    <div class="course-name">Addetti al Montaggio, Smontaggio e Trasformazione dei Ponteggi</div>
+                    <div class="course-toggle">+</div>
+                </div>
+                <div class="course-details">
+                    <div class="course-details-content">
+                        <div class="course-description">
+                            Gli addetti che si occupano di montaggio e smontaggio di ponteggi devono seguire un corso di formazione specifico per essere abilitati a svolgere tali operazioni. Quello che in gergo viene definito come "patentino ponteggi" in realtà è un vero e proprio attestato di frequenza con verifica di apprendimento finale che viene rilasciato al termine del corso obbligatorio. Il percorso formativo è obbligatorio ai sensi dell'art. 136 del Testo Unico sulla salute e sicurezza sul lavoro (commi 6 e 7) del D.Lgs. 81/08 e garantisce l'acquisizione delle competenze necessarie per operare in sicurezza nel montaggio, smontaggio e trasformazione dei ponteggi.
+                        </div>
+                        <div class="course-info-grid">
+                            <div class="course-info-item">
+                                <div class="course-info-label">Durata</div>
+                                28 ore
+                            </div>
+                            <div class="course-info-item">
+                                <div class="course-info-label">Aggiornamento</div>
+                                4 ore (3 ore tecnico-pratiche)
+                            </div>
+                            <div class="course-info-item">
+                                <div class="course-info-label">Validità</div>
+                                4 anni
+                            </div>
+                            <div class="course-info-item">
+                                <div class="course-info-label">Riferimenti</div>
+                                Art. 136 D.Lgs. 81/08
+                            </div>
+                        </div>
+                        <button class="course-request-info" onclick="scrollToContact(); closeCoursesModal();">Richiedi Informazioni</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="course-item" id="antincendio" onclick="toggleCourse(this)">
+                <div class="course-header-clickable">
+                    <div class="course-name">Antincendio</div>
+                    <div class="course-toggle">+</div>
+                </div>
+                <div class="course-details">
+                    <div class="course-details-content">
+                        <div class="course-description">
+                            In ogni azienda deve essere presente almeno un addetto all'antincendio. Nelle attività fino a 5 lavoratori tali ruoli possono essere svolti anche dal Titolare, purché sia presente nei luoghi di lavoro. Il corso Antincendio è rivolto ai lavoratori che sono stati designati dal Datore di Lavoro a ricoprire il ruolo di Addetti alla Prevenzione Incendi. La classificazione del rischio di incendio (basso, medio, alto) dipende dal tipo di attività svolta e determina la durata del corso. Le attività ad alto rischio includono industrie e depositi pericolosi, centrali termoelettriche, impianti nucleari, grandi depositi e strutture con elevato affollamento. Quelle a medio rischio comprendono attività soggette ai controlli VVF e cantieri con sostanze infiammabili. Il rischio basso riguarda luoghi con sostanze a basso tasso di infiammabilità e scarse possibilità di sviluppo di incendi.
+                        </div>
+                        <div class="course-info-grid">
+                            <div class="course-info-item">
+                                <div class="course-info-label">Durata</div>
+                                4/8/16 ore
+                            </div>
+                            <div class="course-info-item">
+                                <div class="course-info-label">Modalità</div>
+                                Presenza + Pratica
+                            </div>
+                            <div class="course-info-item">
+                                <div class="course-info-label">Aggiornamento</div>
+                                Quinquennale
+                            </div>
+                            <div class="course-info-item">
+                                <div class="course-info-label">Validità</div>
+                                5 anni
+                            </div>
+                        </div>
+                        <button class="course-request-info" onclick="scrollToContact(); closeCoursesModal();">Richiedi Informazioni</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="course-item" id="carrelli" onclick="toggleCourse(this)">
+                <div class="course-header-clickable">
+                    <div class="course-name">Carrelli Elevatori/Muletti</div>
+                    <div class="course-toggle">+</div>
+                </div>
+                <div class="course-details">
+                    <div class="course-details-content">
+                        <div class="course-description">
+                            Le aziende dotate di carrelli elevatori devono formare e addestrare i lavoratori al loro utilizzo secondo quanto stabilito dal D.Lgs. 81/08 e dall'accordo Stato/Regioni del 22/02/2012. La formazione dei conducenti è articolata per tipologie specifiche: carrelli industriali semoventi (12 ore), carrelli semoventi a braccio telescopico (12 ore), carrelli/sollevatori semoventi telescopici rotativi (12 ore). Il percorso comprende sempre un modulo teorico di 8 ore e un modulo pratico da 4 ore. Al termine del corso è richiesto il superamento di un test teorico e di una prova pratica di guida per dimostrare il livello di comprensione e competenza acquisita.
+                        </div>
+                        <div class="course-info-grid">
+                            <div class="course-info-item">
+                                <div class="course-info-label">Durata</div>
+                                12 ore
+                            </div>
+                            <div class="course-info-item">
+                                <div class="course-info-label">Aggiornamento</div>
+                                4 ore (3 pratiche)
+                            </div>
+                            <div class="course-info-item">
+                                <div class="course-info-label">Validità</div>
+                                5 anni
+                            </div>
+                            <div class="course-info-item">
+                                <div class="course-info-label">Riferimenti</div>
+                                D.Lgs. 81/08 - Accordo Stato/Regioni
+                            </div>
+                        </div>
+                        <button class="course-request-info" onclick="scrollToContact(); closeCoursesModal();">Richiedi Informazioni</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="course-item" id="dpi" onclick="toggleCourse(this)">
+                <div class="course-header-clickable">
+                    <div class="course-name">DPI 3ª Categoria</div>
+                    <div class="course-toggle">+</div>
+                </div>
+                <div class="course-details">
+                    <div class="course-details-content">
+                        <div class="course-description">
+                            I DPI di terza categoria sono dispositivi di protezione individuale progettati per proteggere da rischi che possono causare conseguenze molto gravi come la morte o danni alla salute irreversibili. Questi dispositivi sono utilizzati per proteggere il capo dal rischio di collisioni accidentali, il volto e gli occhi da scintille, schegge e residui di lavorazioni, dalle cadute dall'alto e da altri rischi mortali. Il corso fornisce la formazione obbligatoria prevista dall'art. 37 del D.Lgs. 81/08 per l'utilizzo corretto e sicuro di questi dispositivi di protezione essenziali per la sicurezza del lavoratore in ambienti ad alto rischio.
+                        </div>
+                        <div class="course-info-grid">
+                            <div class="course-info-item">
+                                <div class="course-info-label">Durata</div>
+                                8 ore
+                            </div>
+                            <div class="course-info-item">
+                                <div class="course-info-label">Aggiornamento</div>
+                                4 ore
+                            </div>
+                            <div class="course-info-item">
+                                <div class="course-info-label">Validità</div>
+                                5 anni
+                            </div>
+                            <div class="course-info-item">
+                                <div class="course-info-label">Riferimenti</div>
+                                Art. 37 D.Lgs. 81/08
+                            </div>
+                        </div>
+                        <button class="course-request-info" onclick="scrollToContact(); closeCoursesModal();">Richiedi Informazioni</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="course-item" id="dirigenti" onclick="toggleCourse(this)">
+                <div class="course-header-clickable">
+                    <div class="course-name">Formazione Dirigenti</div>
+                    <div class="course-toggle">+</div>
+                </div>
+                <div class="course-details">
+                    <div class="course-details-content">
+                        <div class="course-description">
+                            Il dirigente è colui che, in ragione delle competenze professionali e di poteri gerarchici e funzionali adeguati alla natura dell'incarico conferitogli, attua le direttive del datore di lavoro organizzando l'attività lavorativa e vigilando sulla stessa. Il corso di formazione per dirigenti ha lo scopo di fornire ai partecipanti le conoscenze di base sulla sicurezza e salute nei luoghi di lavoro secondo quanto previsto dall'art. 37 del D.Lgs. 81/08 e dal punto 5 dell'Accordo Stato Regioni del 21 dicembre 2011. Tale percorso sostituisce integralmente la formazione prevista per i lavoratori ed è valido per tutte le tipologie di rischio individuate dai codici Ateco. La formazione è finalizzata a sviluppare le competenze manageriali in materia di sicurezza necessarie per il ruolo dirigenziale.
+                        </div>
+                        <div class="course-info-grid">
+                            <div class="course-info-item">
+                                <div class="course-info-label">Durata</div>
+                                16 ore
+                            </div>
+                            <div class="course-info-item">
+                                <div class="course-info-label">Aggiornamento</div>
+                                6 ore
+                            </div>
+                            <div class="course-info-item">
+                                <div class="course-info-label">Validità</div>
+                                5 anni
+                            </div>
+                            <div class="course-info-item">
+                                <div class="course-info-label">Riferimenti</div>
+                                Art. 37 D.Lgs. 81/08
+                            </div>
+                        </div>
+                        <button class="course-request-info" onclick="scrollToContact(); closeCoursesModal();">Richiedi Informazioni</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="course-item" id="lavoratori" onclick="toggleCourse(this)">
+                <div class="course-header-clickable">
+                    <div class="course-name">Formazione Lavoratori</div>
+                    <div class="course-toggle">+</div>
+                </div>
+                <div class="course-details">
+                    <div class="course-details-content">
+                        <div class="course-description">
+                            L'azienda nella persona del datore di lavoro deve garantire ai propri lavoratori adeguata informazione e formazione sulle norme fondamentali di prevenzione, sui rischi generali e specifici per la salute e per la sicurezza cui sono esposti in relazione all'attività svolta e sui pericoli connessi alla mansione. Il corso è articolato in formazione generale (4 ore per tutti) e formazione specifica variabile secondo il livello di rischio aziendale: basso rischio (4 ore aggiuntive), medio rischio (8 ore aggiuntive), alto rischio (12 ore aggiuntive). La formazione deve avvenire in occasione della costituzione del rapporto di lavoro, del trasferimento o cambiamento di mansioni, dell'introduzione di nuove attrezzature, tecnologie o sostanze pericolose. Per i neo-assunti, il corso deve essere completato prima dall'assunzione.
+                        </div>
+                        <div class="course-info-grid">
+                            <div class="course-info-item">
+                                <div class="course-info-label">Durata</div>
+                                8+4/8/12 ore
+                            </div>
+                            <div class="course-info-item">
+                                <div class="course-info-label">Modalità</div>
+                                E-learning + Presenza
+                            </div>
+                            <div class="course-info-item">
+                                <div class="course-info-label">Aggiornamento</div>
+                                6 ore
+                            </div>
+                            <div class="course-info-item">
+                                <div class="course-info-label">Validità</div>
+                                5 anni
+                            </div>
+                        </div>
+                        <button class="course-request-info" onclick="scrollToContact(); closeCoursesModal();">Richiedi Informazioni</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="course-item" id="quota" onclick="toggleCourse(this)">
+                <div class="course-header-clickable">
+                    <div class="course-name">Lavori in Quota</div>
+                    <div class="course-toggle">+</div>
+                </div>
+                <div class="course-details">
+                    <div class="course-details-content">
+                        <div class="course-description">
+                            Il corso Lavori in Quota e DPI Anticaduta ha lo scopo di approfondire la tematica della sicurezza nelle lavorazioni svolte in quota, ai sensi del D.Lgs. 81/08, Titolo IV, Capo II, sia dal punto di vista normativo/legislativo che dal punto di vista pratico. Il corso è finalizzato a formare i lavoratori che operano ad altezze superiori ai 2 metri rispetto ad un piano stabile, fornendo loro le competenze necessarie per utilizzare correttamente i Dispositivi di Protezione Individuale (DPI) di III categoria anticaduta.
+La formazione comprende l'apprendimento delle misure di sicurezza, delle procedure operative, l'addestramento all'uso di imbracature, cordini, moschettoni, assorbitori di energia, sistemi di ancoraggio e altre attrezzature anticaduta necessarie per prevenire gli infortuni da caduta dall'alto.
+                        </div>
+                        <div class="course-info-grid">
+                            <div class="course-info-item">
+                                <div class="course-info-label">Durata</div>
+                                8 ore
+                            </div>
+                            <div class="course-info-item">
+                                <div class="course-info-label">Aggiornamento</div>
+                                4 ore
+                            </div>
+                            <div class="course-info-item">
+                                <div class="course-info-label">Validità</div>
+                                5 anni
+                            </div>
+                            <div class="course-info-item">
+                                <div class="course-info-label">Riferimenti</div>
+                                Articoli 37 e 77 del D.Lgs. 81/08
+                            </div>
+                        </div>
+                        <button class="course-request-info" onclick="scrollToContact(); closeCoursesModal();">Richiedi Informazioni</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="course-item" id="haccp" onclick="toggleCourse(this)">
+                <div class="course-header-clickable">
+                    <div class="course-name">Corso HACCP</div>
+                    <div class="course-toggle">+</div>
+                </div>
+                <div class="course-details">
+                    <div class="course-details-content">
+                        <div class="course-description">
+                            Il corso HACCP è obbligatorio per tutti gli operatori del settore alimentare indipendentemente dalle mansioni che svolgono e dal loro grado di interazione con il prodotto alimentare. Il corso si rivolge sia agli addetti coinvolti nella manipolazione diretta degli alimenti (chef, cuochi, titolari di attività, barman, pasticceri, panettieri, pizzaioli, gelatai, addetti ai bar, rosticcerie, gastronomie, addetti alla vendita in supermercati, pescherie, salumerie, macellerie) sia agli addetti non coinvolti nella manipolazione diretta ma indiretta (promoter, magazzinieri, camerieri, addetti mense, addetti a vendita e trasporto di prodotti ortofrutticoli ed alimenti sfusi). Il corso è basato sul regolamento CE 852/2004 recepito in Italia con il D.Lgs n. 193 del 6 novembre 2007 e fornisce le competenze necessarie per garantire la sicurezza alimentare.
+                        </div>
+                        <div class="course-info-grid">
+                            <div class="course-info-item">
+                                <div class="course-info-label">Durata</div>
+                                4-12 ore
+                            </div>
+                            <div class="course-info-item">
+                                <div class="course-info-label">Aggiornamento</div>
+                                Ogni 2 anni (consigliato)
+                            </div>
+                            <div class="course-info-item">
+                                <div class="course-info-label">Validità</div>
+                                3 anni
+                            </div>
+                            <div class="course-info-item">
+                                <div class="course-info-label">Riferimenti</div>
+                                Regolamento CE 852/2004
+                            </div>
+                        </div>
+                        <button class="course-request-info" onclick="scrollToContact(); closeCoursesModal();">Richiedi Informazioni</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="course-item" id="macchine" onclick="toggleCourse(this)">
+                <div class="course-header-clickable">
+                    <div class="course-name">Macchine Movimento Terra</div>
+                    <div class="course-toggle">+</div>
+                </div>
+                <div class="course-details">
+                    <div class="course-details-content">
+                        <div class="course-description">
+                            Le aziende dotate di macchine movimento terra devono formare e addestrare i lavoratori al loro utilizzo secondo il D.Lgs. 81/08 e l'accordo Stato/Regioni del 22/02/2012. Il corso è specifico per l'uso di escavatori idraulici e a fune, pale caricatrici frontali, terne e autoribaltabili a cingoli. La formazione varia in base al tipo di macchina: 10 ore per ogni singola categoria di macchina oppure 16 ore per il corso completo che abilita all'uso di escavatori idraulici, pale caricatrici frontali e terne. Il corso fornisce le competenze teoriche e pratiche necessarie per l'utilizzo sicuro di queste attrezzature nei cantieri e nelle attività di movimentazione terra, garantendo la conformità normativa e la sicurezza operativa.
+                        </div>
+                        <div class="course-info-grid">
+                            <div class="course-info-item">
+                                <div class="course-info-label">Durata</div>
+                                10-16 ore
+                            </div>
+                            <div class="course-info-item">
+                                <div class="course-info-label">Aggiornamento</div>
+                                4 ore
+                            </div>
+                            <div class="course-info-item">
+                                <div class="course-info-label">Validità</div>
+                                5 anni
+                            </div>
+                            <div class="course-info-item">
+                                <div class="course-info-label">Riferimenti</div>
+                                D.Lgs. 81/08 - Accordo Stato/Regioni
+                            </div>
+                        </div>
+                        <button class="course-request-info" onclick="scrollToContact(); closeCoursesModal();">Richiedi Informazioni</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="course-item" id="piattaforme" onclick="toggleCourse(this)">
+                <div class="course-header-clickable">
+                    <div class="course-name">Piattaforme di Lavoro Mobili Elevabili (PLE)</div>
+                    <div class="course-toggle">+</div>
+                </div>
+                <div class="course-details">
+                    <div class="course-details-content">
+                        <div class="course-description">
+                            Il corso è rivolto agli addetti alla conduzione di piattaforme di lavoro mobili elevabili con e senza stabilizzatori, ovvero qualunque veicolo su ruote ad esclusione di quelli circolanti su rotaie, concepito per trasportare, trainare, spingere, sollevare, impilare o disporre su scaffalature qualsiasi tipo di carico ed azionato da un operatore a bordo con sedile. La formazione è regolamentata dal D.Lgs. 81/08 e dall'accordo Stato/Regioni del 22/02/2012 e si articola in base alle tipologie di piattaforme: 8 ore per piattaforme con stabilizzatori, 8 ore per quelle senza stabilizzatori, oppure 10 ore per il corso completo che abilita all'uso di entrambe le categorie. Il corso fornisce le competenze necessarie per operare in sicurezza nei lavori in quota utilizzando queste attrezzature specializzate.
+                        </div>
+                        <div class="course-info-grid">
+                            <div class="course-info-item">
+                                <div class="course-info-label">Durata</div>
+                                8-10 ore
+                            </div>
+                            <div class="course-info-item">
+                                <div class="course-info-label">Aggiornamento</div>
+                                4 ore
+                            </div>
+                            <div class="course-info-item">
+                                <div class="course-info-label">Validità</div>
+                                5 anni
+                            </div>
+                            <div class="course-info-item">
+                                <div class="course-info-label">Riferimenti</div>
+                                D.Lgs. 81/08 - Accordo Stato/Regioni
+                            </div>
+                        </div>
+                        <button class="course-request-info" onclick="scrollToContact(); closeCoursesModal();">Richiedi Informazioni</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="course-item" id="preposto" onclick="toggleCourse(this)">
+                <div class="course-header-clickable">
+                    <div class="course-name">Preposto</div>
+                    <div class="course-toggle">+</div>
+                </div>
+                <div class="course-details">
+                    <div class="course-details-content">
+                        <div class="course-description">
+                            Il preposto, così come definito dall'articolo 2 del Decreto Legislativo 81/2008, è la persona che, nei limiti dei poteri gerarchici e funzionali appropriati alla natura dell'incarico conferitogli, sovrintende all'attività lavorativa e garantisce l'attuazione delle direttive ricevute dal datore di lavoro, controllandone la corretta esecuzione da parte dei lavoratori. Il corso è regolamentato dall'accordo Stato-Regioni del 21 dicembre 2011, in attuazione dell'articolo 37 del Decreto Legislativo 81/2008, e deve avere una durata minima di 8 ore. La formazione è valida per tutte le tipologie di rischio individuate dai codici Ateco e fornisce le competenze necessarie per svolgere efficacemente il ruolo di supervisione e controllo della sicurezza sul lavoro.
+                        </div>
+                        <div class="course-info-grid">
+                            <div class="course-info-item">
+                                <div class="course-info-label">Durata</div>
+                                12 ore
+                            </div>
+                            <div class="course-info-item">
+                                <div class="course-info-label">Aggiornamento</div>
+                                6 ore
+                            </div>
+                            <div class="course-info-item">
+                                <div class="course-info-label">Validità</div>
+                                2 anni
+                            </div>
+                            <div class="course-info-item">
+                                <div class="course-info-label">Riferimenti</div>
+                                Accordo Stato-Regioni 21/12/2011
+                            </div>
+                        </div>
+                        <button class="course-request-info" onclick="scrollToContact(); closeCoursesModal();">Richiedi Informazioni</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="course-item" id="soccorso" onclick="toggleCourse(this)">
+                <div class="course-header-clickable">
+                    <div class="course-name">Primo Soccorso</div>
+                    <div class="course-toggle">+</div>
+                </div>
+                <div class="course-details">
+                    <div class="course-details-content">
+                        <div class="course-description">
+                            In ogni azienda deve essere presente almeno un addetto al primo soccorso. Nelle attività fino a 5 lavoratori tali ruoli possono essere svolti anche dal Titolare, purché sia presente nei luoghi di lavoro. La durata e i contenuti specifici del corso variano a seconda della classificazione dell'azienda (Gruppo A, B e C), effettuata sulla base del numero dei dipendenti, del comparto produttivo e dei fattori di rischio. Il Gruppo A include aziende ad alto rischio (soggette a obbligo di dichiarazione, centrali termoelettriche, impianti nucleari, aziende estrattive, con oltre 5 lavoratori ad alto indice infortunistico), il Gruppo B comprende aziende con 3 o più lavoratori che non rientrano nel Gruppo A, mentre il Gruppo C riguarda aziende con meno di 3 lavoratori non del Gruppo A. Il corso fornisce competenze pratiche di rianimazione e gestione delle emergenze mediche secondo il DM 388/2003.
+                        </div>
+                        <div class="course-info-grid">
+                            <div class="course-info-item">
+                                <div class="course-info-label">Durata</div>
+                                12-16 ore
+                            </div>
+                            <div class="course-info-item">
+                                <div class="course-info-label">Modalità</div>
+                                Presenza + Pratica
+                            </div>
+                            <div class="course-info-item">
+                                <div class="course-info-label">Aggiornamento</div>
+                                4-6 ore
+                            </div>
+                            <div class="course-info-item">
+                                <div class="course-info-label">Validità</div>
+                                3 anni
+                            </div>
+                        </div>
+                        <button class="course-request-info" onclick="scrollToContact(); closeCoursesModal();">Richiedi Informazioni</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="course-item" id="rls" onclick="toggleCourse(this)">
+                <div class="course-header-clickable">
+                    <div class="course-name">RLS - Rappresentante dei Lavoratori per la Sicurezza</div>
+                    <div class="course-toggle">+</div>
+                </div>
+                <div class="course-details">
+                    <div class="course-details-content">
+                        <div class="course-description">
+                            I lavoratori hanno diritto ad eleggere un loro rappresentante (RLS), il quale ha diritto ad una formazione particolare in materia di salute e sicurezza sul lavoro. I contenuti specifici della formazione sono stabiliti in sede di contrattazione collettiva nazionale e includono: principi giuridici comunitari e nazionali; legislazione generale e speciale in materia di salute e sicurezza sul lavoro; principali soggetti coinvolti e relativi obblighi; definizione e individuazione dei fattori di rischio; valutazione dei rischi; individuazione delle misure tecniche, organizzative e procedurali di prevenzione e protezione; aspetti normativi dell'attività di rappresentanza dei lavoratori; nozioni di tecnica della comunicazione. Il corso è regolamentato dall'art. 37, comma 10 del D.Lgs. 81/2008 e ha durata non inferiore alle 32 ore con obbligo di aggiornamento annuale.
+                        </div>
+                        <div class="course-info-grid">
+                            <div class="course-info-item">
+                                <div class="course-info-label">Durata</div>
+                                32 ore
+                            </div>
+                            <div class="course-info-item">
+                                <div class="course-info-label">Aggiornamento</div>
+                                4-8 ore annue
+                            </div>
+                            <div class="course-info-item">
+                                <div class="course-info-label">Validità</div>
+                                1 anno
+                            </div>
+                            <div class="course-info-item">
+                                <div class="course-info-label">Riferimenti</div>
+                                Art. 37 D.Lgs. 81/2008
+                            </div>
+                        </div>
+                        <button class="course-request-info" onclick="scrollToContact(); closeCoursesModal();">Richiedi Informazioni</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="course-item" id="rspp" onclick="toggleCourse(this)">
+                <div class="course-header-clickable">
+                    <div class="course-name">RSPP - Responsabile Servizi Prevenzione e Protezione</div>
+                    <div class="course-toggle">+</div>
+                </div>
+                <div class="course-details">
+                    <div class="course-details-content">
+                        <div class="course-description">
+                            La figura dell'RSPP è molto importante e deve essere presente in tutte le aziende. Il ruolo di RSPP può essere svolto dal datore di lavoro (tranne che per alcune tipologie di aziende specifiche) oppure da un consulente esterno o da un lavoratore, purché in possesso degli stessi requisiti di un consulente. Il corso è suddiviso in tre moduli di durata variabile a seconda del macrosettore produttivo e del livello di rischio aziendale. I percorsi formativi sono articolati in moduli associati a tre differenti livelli di rischio: corso di formazione per basso rischio (16 ore), corso di formazione per medio rischio (32 ore), corso di formazione per alto rischio (48 ore). La formazione è regolamentata dall'art.34 del D.Lgs.81/08 e smi e dalla Conferenza Stato-Regioni del 21/12/2011. Il corso fornisce le competenze necessarie per gestire efficacemente il servizio di prevenzione e protezione aziendale secondo la normativa vigente.
+                        </div>
+                        <div class="course-info-grid">
+                            <div class="course-info-item">
+                                <div class="course-info-label">Durata</div>
+                                16-48 ore
+                            </div>
+                            <div class="course-info-item">
+                                <div class="course-info-label">Aggiornamento</div>
+                                6-14 ore
+                            </div>
+                            <div class="course-info-item">
+                                <div class="course-info-label">Validità</div>
+                                5 anni
+                            </div>
+                            <div class="course-info-item">
+                                <div class="course-info-label">Riferimenti</div>
+                                Art.34 D.Lgs.81/08 - Conferenza Stato-Regioni
+                            </div>
+                        </div>
+                        <button class="course-request-info" onclick="scrollToContact(); closeCoursesModal();">Richiedi Informazioni</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Richiedi Informazioni</h2>
+            <form class="contact-form" onsubmit="handleSubmit(event)">
+                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                <div class="form-group">
+                    <label for="nome">Nome *</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="telefono">Telefono</label>
+                    <input type="tel" id="telefono" name="telefono">
+                </div>
+                <div class="form-group">
+                    <label for="messaggio">Messaggio *</label>
+                    <textarea id="messaggio" name="messaggio" placeholder="Descrivi le tue esigenze di formazione o consulenza..." required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Invia Richiesta</button>
+            </form>
+
+            <!-- NUOVA SEZIONE WHATSAPP -->
+            <div class="whatsapp-contact">
+                <h3>Contattaci Subito su WhatsApp</h3>
+                <p>Hai bisogno di informazioni immediate? Scrivici su WhatsApp per una consulenza rapida e personalizzata.</p>
+                <a href="https://wa.me/393397580064?text=Ciao!%20Vorrei%20informazioni%20sui%20vostri%20servizi%20di%20sicurezza%20sul%20lavoro." 
+                class="whatsapp-btn" 
+                target="_blank" 
+                rel="noopener noreferrer">
+                    <span class="whatsapp-icon">📱</span>
+                    Chatta su WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Catasta Sicurezza</h3>
+                    <p>Consulenza e formazione professionale per la sicurezza sul lavoro</p>
+                    <p>Soluzioni complete per aziende di ogni dimensione</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contatti</h3>
+                    <p>📧 info@catastasicurezza.it</p>
+                    <p>📞 +39 339 758 0064</p>
+                    <p>📍 Via del Pummidoro, 123<br>00100 Roma (RM)</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Servizi</h3>
+                    <a href="#courses">Corsi di Formazione</a>
+                    <a href="#services">Consulenza Aziendale</a>
+                    <a href="#contact">Valutazione Rischi</a>
+                    <a href="#contact">Supporto Normativo</a>
+                </div>
+            </div>
+            <p>&copy; 2025 Catasta Sicurezza. Tutti i diritti riservati.</p>
+        </div>
+    </footer>
+
+    <button class="back-to-top" onclick="scrollToTop()" title="Torna su">
+        ↑
+    </button>
+    <script src="js/main.js"></script>
+</body>
+</html>
