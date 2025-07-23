@@ -217,6 +217,7 @@
             font-size: 4rem;
         }
 
+        /* Altriemnti non si vede lo scudo.webp
         .about-image::before {
             content: '';
             position: absolute;
@@ -226,6 +227,7 @@
             bottom: 0;
             background: linear-gradient(45deg, rgba(255, 102, 0, 0.3), rgba(26, 26, 26, 0.3));
         }
+        */
 
         .about-image-icon {
             position: relative;
